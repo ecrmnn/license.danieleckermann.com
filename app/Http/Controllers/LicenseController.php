@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreLicenseRequest;
+use Illuminate\Support\Str;
 use App\Models\License;
+use App\Http\Requests\StoreLicenseRequest;
 
 class LicenseController extends Controller
 {
     public function store(StoreLicenseRequest $request)
     {
-        return License::create($request->validated());
+        return License::create(array_merge($request->validated(), [
+            'key' => Str::random(32),
+        ]));
     }
 }
