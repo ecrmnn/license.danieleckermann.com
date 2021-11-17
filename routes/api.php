@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LicenseController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SatisAuthenticationController;
 
@@ -16,3 +17,6 @@ use App\Http\Controllers\SatisAuthenticationController;
 
 Route::post('satis/authenticate', SatisAuthenticationController::class)
     ->middleware('auth:license-api');
+
+Route::post('license', [LicenseController::class, 'store'])
+    ->name('license.store');

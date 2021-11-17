@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\License;
 use Illuminate\Http\Request;
-use Illuminate\Contracts\Auth\Authenticatable;
 
 class SatisAuthenticationController extends Controller
 {
@@ -20,8 +18,6 @@ class SatisAuthenticationController extends Controller
         $originalUrl = $request->header('X-Original-URI', '');
 
         preg_match('#^/dist/(?<package>spatie/[^/]*)/#', $originalUrl, $matches);
-
-        dd($matches);
 
         if (! key_exists('package', $matches)) {
             abort(401, 'Missing X-Original-URI header');
