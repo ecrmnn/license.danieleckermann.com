@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "06a3c18609447d9e288a4558c5dc838e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1126,6 +1126,58 @@
                 "source": "https://github.com/laravel/tinker/tree/v2.5.0"
             },
             "time": "2020-10-29T13:07:12+00:00"
+        },
+        {
+            "name": "laravelrush/rush",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ecrmnn/laravel-one.git",
+                "reference": "835ad45557ca3525c683142fe47545008650c4b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.laravelrush.com/dist/laravelrush/rush/laravelrush-rush-835ad45557ca3525c683142fe47545008650c4b5-zip-99e782.zip",
+                "reference": "835ad45557ca3525c683142fe47545008650c4b5",
+                "shasum": "1ba381ebf8ab124f7988a6672be6773baa09db66"
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.17",
+                "orchestra/testbench": "^6.2",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "module",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelRush\\Rush\\Providers\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelRush\\Rush\\": "src/",
+                    "Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ecrmnn",
+                    "email": "danieleckermann@gmail.com"
+                }
+            ],
+            "description": "The missing Laravel admin panel",
+            "support": {
+                "source": "https://github.com/ecrmnn/laravel-one/tree/master",
+                "issues": "https://github.com/ecrmnn/laravel-one/issues"
+            },
+            "time": "2021-10-18T09:19:23+00:00"
         },
         {
             "name": "league/commonmark",
@@ -7340,7 +7392,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "laravelrush/rush": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
