@@ -14,7 +14,6 @@ class CreateLicensesTable extends Migration
             $table->string('domain');
             $table->string('key');
             $table->unsignedInteger('satis_authentication_count')->default(0);
-            $table->timestamp('expires_at');
             $table->timestamps();
         });
     }
