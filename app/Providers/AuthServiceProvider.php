@@ -29,7 +29,7 @@ class AuthServiceProvider extends ServiceProvider
 
         Auth::viaRequest('license-key', function (Request $request) {
             $license = License::query()
-                ->where('user', $request->getUser())
+                ->where('email', $request->getUser())
                 ->where('key', $request->getPassword())
                 ->first();
 
