@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ActivateLicenseController;
+use App\Http\Controllers\LicenseController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'index');
+
+Route::get('license/create', [LicenseController::class, 'create']);
+
+Route::get('rush/activate', [ActivateLicenseController::class, 'index']);
