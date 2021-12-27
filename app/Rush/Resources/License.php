@@ -2,6 +2,8 @@
 
 namespace App\Rush\Resources;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use LaravelRush\Rush\Resources\Fields\Field;
 
@@ -74,5 +76,10 @@ class License
                     Rule::in(request()->user()->id),
                 ]),
         ];
+    }
+
+    public function indexQuery(Builder $query, Request $request)
+    {
+        return $query->where('user_id', $request->user()->id);
     }
 }

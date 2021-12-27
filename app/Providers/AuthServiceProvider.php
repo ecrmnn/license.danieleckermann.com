@@ -3,8 +3,6 @@
 namespace App\Providers;
 
 use App\Models\License;
-use App\Models\User;
-use App\Policies\UserPolicy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -30,8 +28,10 @@ class AuthServiceProvider extends ServiceProvider
 
         Auth::viaRequest('license-key', function (Request $request) {
             $license = License::query()
-                ->where('email', $request->getUser())
-                ->where('key', $request->getPassword())
+                ->whereHas('user', function ($q) use ($request) {
+                    $q->where('email', $request->getUser());
+                })
+                ->where('license_key', $request->getPassword())
                 ->first();
 
             if (!$license) {
