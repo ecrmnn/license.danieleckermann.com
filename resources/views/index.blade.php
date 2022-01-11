@@ -335,7 +335,7 @@
                   <h3
                     class="inline-flex px-4 py-1 mb-4 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600"
                     id="tier-standard">
-                    Individual
+                    Personal
                   </h3>
                 </div>
                 {{-- <div class="flex items-baseline text-4xl font-bold text-gray-400 line-through">
