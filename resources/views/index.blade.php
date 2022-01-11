@@ -15,7 +15,7 @@
   <meta property="og:image" content="{{ asset('img/og.png') }}">
   <meta property="og:site_name" content="Laravel Rush">
 
-  <link rel="icon" href="{{ asset('img/favicon.gif') }}" type="image/gif">
+  <link rel="icon" href="{{ asset('img/favicon.jpg') }}" type="image/jpg">
   <link rel="stylesheet" href="{{ asset('app.css') }}">
   <link rel="stylesheet" href="{{ asset('prism.css') }}">
   <script src="{{ asset('prism.js') }}"></script>
