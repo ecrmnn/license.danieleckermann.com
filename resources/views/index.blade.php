@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Laravel Rush</title>
-  <meta name="description" content="Supercharge you development with Laravel Rush">
+  <meta name="description" content="Build apps faster than ever with Laravel Rush">
   <link rel="canonical" href="https://www.laravelrush.com" />
   <meta property="og:title" content="Laravel Rush">
-  <meta property="og:description" content="Supercharge you development with Laravel Rush">
+  <meta property="og:description" content="Build apps faster than ever with Laravel Rush">
   <meta property="og:url" content="https://www.laravelrush.com">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
