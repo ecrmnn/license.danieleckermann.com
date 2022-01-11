@@ -371,6 +371,19 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base text-gray-700">
+                      Field types for any app
+                    </p>
+                  </li>
+
+                  <li class="flex items-start">
+                    <div class="flex-shrink-0">
+                      <!-- Heroicon name: outline/check -->
+                      <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <p class="ml-3 text-base text-gray-700">
                       Uses Laravel policies out of the box
                     </p>
                   </li>
@@ -445,6 +458,19 @@
                     </div>
                     <p class="ml-3 text-base text-gray-700">
                       Create resources in record time
+                    </p>
+                  </li>
+
+                  <li class="flex items-start">
+                    <div class="flex-shrink-0">
+                      <!-- Heroicon name: outline/check -->
+                      <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <p class="ml-3 text-base text-gray-700">
+                      Field types for any app
                     </p>
                   </li>
 
