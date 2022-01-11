@@ -5,65 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Laravel Rush</title>
-  <meta name="description" content="Build adminpanels within hours, not weeks">
+  <meta name="description" content="Supercharge you development with Laravel Rush">
   <link rel="canonical" href="https://www.laravelrush.com" />
   <meta property="og:title" content="Laravel Rush">
-  <meta property="og:description" content="Build adminpanels within hours, not weeks">
+  <meta property="og:description" content="Supercharge you development with Laravel Rush">
   <meta property="og:url" content="https://www.laravelrush.com">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ asset('img/og.jpg') }}">
+  <meta property="og:image" content="{{ asset('img/og.png') }}">
   <meta property="og:site_name" content="Laravel Rush">
 
   <link rel="icon" href="{{ asset('img/favicon.gif') }}" type="image/gif">
   <link rel="stylesheet" href="{{ asset('app.css') }}">
   <link rel="stylesheet" href="{{ asset('prism.css') }}">
   <script src="{{ asset('prism.js') }}"></script>
-
-  <style>
-    .spikes {
-      position: relative;
-      height: 1vh;
-    }
-
-    .spikes::after {
-      content: '';
-      position: absolute;
-      right: 0;
-      left: -0%;
-      top: 100%;
-      z-index: 10;
-      display: block;
-      height: 50px;
-      background-size: 50px 100%;
-      background-image: linear-gradient(135deg, #134e4a 25%, transparent 25%), linear-gradient(225deg, #134e4a 25%, transparent 25%);
-      background-position: 0 0;
-    }
-
-  </style>
-
-
 </head>
 
 <body class="antialiased bg-gray-50">
-  <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-
-
   <div class="relative bg-gradient-to-b from-gray-800 to-indigo-900 overflow-hidden">
     <div
       class="absolute -top-60 bg-gradient-to-b from-gray-800 to-indigo-800 opacity-50 w-full h-[500px] transform -skew-y-12">
