@@ -96,13 +96,14 @@
             <h1 class="lg:mt-3">
               <span
                 class="block text-sm font-semibold uppercase tracking-wide text-gray-300 sm:text-base lg:text-sm xl:text-base">
-                With Laravel Rush you can
+                With Laravel Rush you'll
               </span>
               <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                 <span class="block text-white">Build apps</span>
                 <span class="block text-red-400">faster than ever 🚀</span>
               </span>
             </h1>
+
             <p class="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
               Supercharge you development with Laravel Rush.
               <br>
