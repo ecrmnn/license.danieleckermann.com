@@ -96,7 +96,7 @@
             <h1 class="lg:mt-3">
               <span
                 class="block text-sm font-semibold uppercase tracking-wide text-gray-300 sm:text-base lg:text-sm xl:text-base">
-                With Laravel Rush you'll
+                With Laravel Rush you can
               </span>
               <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                 <span class="block text-white">Build apps</span>
