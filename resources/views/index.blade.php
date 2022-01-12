@@ -121,7 +121,7 @@
                 action="https://laravelrush.us20.list-manage.com/subscribe/post?u=94ed3f3bc6630e72fc40937b9&amp;id=741054cefb"
                 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                 target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll" class="flex">
+                <div id="mc_embed_signup_scroll" class="sm:flex">
                   <label for="email-address" class="sr-only">Email address</label>
                   <input type="email" value="" name="EMAIL"
                     class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md"
@@ -144,7 +144,7 @@
           <div
             class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
             <svg
-              class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden"
+              class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top hidden lg:hidden"
               width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
               <defs>
                 <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20"
@@ -157,7 +157,7 @@
             </svg>
             <div>
               <button type="button"
-                class="relative block w-full bg-white rounded-md overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                class="relative block w-full rounded-md overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 <span class="sr-only">Watch our video to learn more</span>
                 <img class="w-full" src="{{ asset('img/laravel-rush-dashboard.png') }}" alt="">
                 <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
@@ -555,7 +555,7 @@
         </div>
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
           <h2>
-            <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl lg:mt-16">
+            <span class="mt-8 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl lg:mt-16">
               <span class="text-gray-700">Descriptive and fluent</span>
               <span class="text-indigo-700">resource definitions 🏄‍♂️</span>
             </span>
@@ -640,7 +640,7 @@
 
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
           <h2>
-            <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl lg:mt-12">
+            <span class="mt-8 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl lg:mt-12">
               <span class="text-slate-500">Make it even more</span>
               <span class="text-orange-700">user friendly 💡</span>
             </span>
@@ -656,7 +656,7 @@
 
   <div class="bg-indigo-800 pt-10 pb-10">
     <div class="mx-auto max-w-6xl">
-      <p class="text-base text-indigo-400 xl:text-center">
+      <p class="text-base text-indigo-400 text-center">
         &copy; {{ date('Y') }} Laravel Rush and Middleware AS. All rights reserved.
       </p>
     </div>
