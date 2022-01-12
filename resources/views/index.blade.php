@@ -537,7 +537,7 @@
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div
           class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-          <div class="bg-gray-800 p-1 rounded-md shadow" data-tilt data-tilt-startX="-8" data-tilt-startY="-4"
+          <div class="bg-gray-800 p-1 rounded-md shadow-md text-sm lg:text-base" data-tilt data-tilt-startX="-8" data-tilt-startY="-4"
             data-tilt-max="15">
             <pre><code class="language-php">class Page
 {
@@ -586,7 +586,7 @@
         </div>
         <div
           class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center text-right">
-          <div class="w-full bg-gray-800 p-1 rounded-md shadow-md" data-tilt data-tilt-startX="8" data-tilt-startY="4"
+          <div class="w-full bg-gray-800 p-1 rounded-md shadow-md text-sm lg:text-base" data-tilt data-tilt-startX="8" data-tilt-startY="4"
             data-tilt-max="15">
             <pre><code class="language-php">class Page
 {
@@ -620,7 +620,7 @@
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div
           class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-7 lg:flex lg:items-center text-right">
-          <div class="bg-gray-800 p-1 rounded-md shadow-md" data-tilt data-tilt-startX="-4" data-tilt-startY="5"
+          <div class="bg-gray-800 p-1 rounded-md shadow-md text-sm lg:text-base" data-tilt data-tilt-startX="-4" data-tilt-startY="5"
             data-tilt-max="15">
             <pre><code class="language-php">class User
 {
