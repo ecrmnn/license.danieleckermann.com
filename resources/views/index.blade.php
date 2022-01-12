@@ -314,10 +314,7 @@
             Pricing
           </h2>
           <p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-            Affordable pricing for individuals &mdash;
-          </p>
-          <p class="text-3xl font-extrabold text-indigo-200 sm:text-4xl lg:text-5xl">
-            A huge time saver for agencies
+            Affordable pricing for individuals and agencies
           </p>
           <p class="text-base text-gray-300 pt-4">
             License is valid for a single domain with one year of updates
