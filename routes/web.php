@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ActivateLicenseController;
 use App\Http\Controllers\LicenseController;
+use App\Mail\Activation;
+use App\Models\UnclaimedLicense;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,7 @@ Route::view('/', 'index');
 Route::get('license/create', [LicenseController::class, 'create']);
 
 Route::get('rush/activate', [ActivateLicenseController::class, 'index']);
+
+Route::get('mail', function () {
+    return new Activation(UnclaimedLicense::first());
+});
