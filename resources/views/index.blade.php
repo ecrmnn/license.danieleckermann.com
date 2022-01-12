@@ -245,7 +245,7 @@
     </div>
 
 
-    <div class="relative py-12">
+    <div class="relative py-0 lg:py-12">
       <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-6xl lg:px-8">
         <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
